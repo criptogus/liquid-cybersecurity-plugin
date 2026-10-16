@@ -1,0 +1,22 @@
+{
+  "name": "liquid-cybersecurity",
+  "version": "0.1.1",
+  "description": "Review authorized JavaScript and TypeScript with Liquid, inspect security candidates and prepare evidence-backed fix plans. By Zero Agency.",
+  "author": {
+    "name": "Zero Agency"
+  },
+  "homepage": "https://liquidplatform.org",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "code-review",
+    "javascript",
+    "typescript",
+    "mcp",
+    "ai-coding",
+    "preproduction"
+  ],
+  "skills": "./skills/",
+  "rules": "./rules/",
+  "mcpServers": "./mcp.json"
+}

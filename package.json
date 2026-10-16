@@ -1,0 +1,16 @@
+{
+  "name": "liquid-cybersecurity-client-plugin",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node scripts/validate.mjs && node --test tests/template.test.mjs",
+    "install:local": "node scripts/install-local.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
