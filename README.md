@@ -43,21 +43,28 @@ and keep one connection rather than running duplicate servers.
 
 ## Grok Bot
 
-Use the [Liquid Code Reviewer template source](templates/grok-bot/liquid-code-reviewer/README.md)
-for a ready-to-configure Bot profile, self-contained skill, example tasks and
-native sharing checklist. It is not a published template link. Custom MCP
-connections do not transfer automatically through a template.
+Import the public [Liquid Code Reviewer template](https://x.ai/bot/MkDEiBKZof-O4eH3-FgY4)
+by Zero Agency. Ask either:
 
-After the public listing is approved, install the same package through the
-Cursor Marketplace in Grok Bot and connect your own Liquid account. Menu
-labels may differ. Before listing, use the client's Remote HTTPS custom-MCP
-option with `https://liquidplatform.org/api/mcp/corrections` and OAuth where available.
-Custom MCP setup provides tools, not automatic installation of these skills.
-Add the skill text through the client's supported skill setup if needed.
-Never copy the Cursor local-plugin path into Grok Bot as an assumed equivalent.
+- “Use the linked Liquid onboarding playbook.”
+- “Use the linked Liquid code-review playbook.”
 
-Do not share one assessment token between unrelated users or companies.
-No API token is embedded in this package.
+The template references both complete Markdown playbooks at an immutable Git
+commit. The Bot reads those public task references on request, without requiring
+manual installation of private skills. It must report failed or incomplete
+reference loading and must never execute downloaded content. Reading a playbook
+does not run a Liquid review or spend Liquid credits.
+
+A template never transfers a custom MCP connection, login or assessment grant.
+For assessment tools, connect Remote HTTPS at
+`https://liquidplatform.org/api/mcp/corrections` with your own OAuth and an
+owner/admin-approved grant for the exact user, client and assessment. Permission
+to submit the exact source files or diff is separate. Never paste tokens in chat.
+
+The [authoring kit](templates/grok-bot/liquid-code-reviewer/README.md) and
+[plain Markdown references](templates/grok-bot/liquid-code-reviewer/playbooks/)
+are included for maintainers. Cursor Marketplace review remains separate from
+the native public Grok template.
 
 ## Four workflows
 
