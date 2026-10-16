@@ -33,8 +33,9 @@ candidates, not confirmed exploits. No result certifies production safety.
 
 These are editorial copy, not a promised native conversation-starter API.
 
-## Primary CTA after a real share link exists
+## Verified public template
 Add Liquid Code Reviewer to Grok Bot
+https://x.ai/bot/MkDEiBKZof-O4eH3-FgY4
 
 ## Website trial CTA
 Start your free code review

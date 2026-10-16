@@ -8,7 +8,7 @@ one manual rule and one remote MCP server. Enterprise policy may block local
 imports. An installed marketplace version takes precedence over a local copy.
 
 Connect the server through the client's MCP settings. The package uses Liquid's
-native OAuth endpoint, `https://liquidplatform.org/mcp`. Native OAuth must be
+native OAuth endpoint, `https://liquidplatform.org/api/mcp/corrections`. Native OAuth must be
 enabled in Liquid and the exact client/user/assessment grant approved. Do not
 weaken redirect checks or change server authorization to make a test pass.
 
@@ -21,7 +21,7 @@ This fallback installs the connector, not the four skills.
 {
   "mcpServers": {
     "liquid-cybersecurity": {
-      "url": "https://liquidplatform.org/mcp"
+      "url": "https://liquidplatform.org/api/mcp/corrections"
     }
   }
 }

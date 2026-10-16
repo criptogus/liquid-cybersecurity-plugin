@@ -1,6 +1,6 @@
 {
   "name": "liquid-cybersecurity",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Review authorized JavaScript and TypeScript with Liquid, inspect security candidates and prepare evidence-backed fix plans. By Zero Agency.",
   "author": {
     "name": "Zero Agency"

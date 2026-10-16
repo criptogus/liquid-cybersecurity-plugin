@@ -1,6 +1,9 @@
 # Create the native Grok Bot template
 
-Status: source prepared; native creation, import and publication not performed.
+Status (October 16, 2026): native template published at
+https://x.ai/bot/MkDEiBKZof-O4eH3-FgY4. OAuth and one synthetic read
+passed through the resource-specific endpoint below. Independent recipient
+import testing remains unverified. These are separate checks.
 A Markdown bundle is not a live share link. This is a separate process from
 submitting the Cursor plugin to its marketplace.
 
@@ -11,7 +14,7 @@ submitting the Cursor plugin to its marketplace.
    is self-contained; do not rely on a file remaining on the creator's computer.
    Send SETUP_MESSAGE.md. Verify what was saved in the actual client.
 3. Configure the custom Remote HTTPS MCP connection with the user's own OAuth
-   at https://liquidplatform.org/mcp when an authorized assessment is available.
+   at https://liquidplatform.org/api/mcp/corrections when an authorized assessment is available.
    Do not add shared secrets or automatically reuse a demonstration grant.
    Also verify that a user without a grant receives accurate web-trial guidance.
 4. Run the authorized, synthetic smoke tests in ACCEPTANCE.md with no spending

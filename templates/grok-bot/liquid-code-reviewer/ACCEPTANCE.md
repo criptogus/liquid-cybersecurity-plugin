@@ -23,3 +23,11 @@ Use only a dedicated authorized test assessment and synthetic source.
 
 Record actual outcomes, tool receipts, client versions and dates separately.
 A single passing smoke test is not a security audit or approval for production.
+
+## Observed October 16, 2026
+
+Native public sharing, OAuth completion, seven-tool discovery and one read of
+an owner-confirmed synthetic assessment were verified in the creator session.
+The grant was limited to one day, with no phone or offline renewal. No paid
+review or source submission ran. These observations do not mark the other
+planned cases above as passed. Independent recipient import remains unverified.

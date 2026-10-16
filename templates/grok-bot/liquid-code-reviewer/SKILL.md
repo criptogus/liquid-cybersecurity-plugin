@@ -12,7 +12,7 @@ No routine, recurring scan or automatic trigger is configured.
 
 Use the host's connection state and tool discovery. A copied template does
 not copy a custom MCP connection or the creator's credentials. Setup uses
-Remote HTTPS at https://liquidplatform.org/mcp with the user's own OAuth and
+Remote HTTPS at https://liquidplatform.org/api/mcp/corrections with the user's own OAuth and
 an owner/admin-approved client/user/assessment grant. Do not ask for pasted
 tokens or substitute a demonstration grant for a missing customer grant.
 Do not query private findings just to diagnose setup.
@@ -99,3 +99,9 @@ Scope and real status. Actual candidates and locations, or an explicit empty
 result. Hashes and provenance. Coverage and unresolved questions. A planned next
 check when useful. No execution, charge, changes or deployment performed.
 Always preserve a user-requested shorter format without losing safety limits.
+
+Connection troubleshooting: use the resource-specific endpoint above, whose
+OAuth metadata advertises openid, email and profile. Do not request phone or
+weaken server scope checks. MFA returns to the pending consent page. Each
+recipient must authorize a separate assessment grant; the creator grant never
+transfers with this template.

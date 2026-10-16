@@ -27,7 +27,7 @@ try {
   const mcp = await parse('mcp.json');
   check(Object.keys(mcp.mcpServers).length === 1, 'Single server');
   const server = mcp.mcpServers['liquid-cybersecurity'];
-  check(server.url === 'https://liquidplatform.org/mcp', 'Verified endpoint');
+  check(server.url === 'https://liquidplatform.org/api/mcp/corrections', 'Verified endpoint');
   check(Object.keys(server).length === 1, 'OAuth discovery, no embedded secrets or background commands');
   const skills = ['liquid-start', 'liquid-review', 'liquid-fix-plan', 'liquid-review-status'];
   check((await readdir(path.join(root, 'skills'))).length === skills.length, 'Expected skills');

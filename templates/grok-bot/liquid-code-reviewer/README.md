@@ -5,7 +5,7 @@
 By Zero Agency. English. On demand. No scheduled routines.
 
 This directory contains authoring materials for a native Grok Bot template,
-not an official JSON import format, an installed Bot, or a published share link.
+not an official JSON import format. The native template is published separately.
 Templates and MCP plugins are separate distribution surfaces. A template is
 not listed as a prerequisite for using an MCP connection in the official docs.
 
@@ -52,5 +52,6 @@ not anonymous MCP access or a full audit. Do not upload code during installation
   https://cursor.com/docs/reference/plugins
 
 The parent client-package MIT license applies. These materials do not license
-the Liquid backend or confer certification. No public template URL exists as
-a result of generating these files; record the real link only after publishing.
+the Liquid backend or confer certification. The verified native public template is https://x.ai/bot/MkDEiBKZof-O4eH3-FgY4.
+Its profile and description identify Zero Agency; the host creator attribution is
+the personal account display name. A public share is not marketplace approval.

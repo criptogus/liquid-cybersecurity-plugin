@@ -13,8 +13,9 @@ Check whether the Liquid MCP connection is available using the client's
 connection state or tool discovery. Do not call private-data tools just to
 check setup. Custom MCP connections are not automatically copied by templates.
 If absent, explain how to add a Remote HTTPS MCP connection at
-https://liquidplatform.org/mcp and complete my own OAuth. Do not request a token
-in chat or reuse someone else's account. An owner/admin must approve the exact
+https://liquidplatform.org/api/mcp/corrections and complete my own OAuth. Do not request a token
+in chat or reuse someone else's account. Request only openid, email and profile;
+never phone. Complete MFA and return to the pending consent request. An owner/admin must approve the exact
 client/user/assessment grant before private assessment tools can work.
 
 If I do not have that assessment grant, offer the separate free website trial:

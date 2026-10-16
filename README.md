@@ -51,7 +51,7 @@ connections do not transfer automatically through a template.
 After the public listing is approved, install the same package through the
 Cursor Marketplace in Grok Bot and connect your own Liquid account. Menu
 labels may differ. Before listing, use the client's Remote HTTPS custom-MCP
-option with `https://liquidplatform.org/mcp` and OAuth where available.
+option with `https://liquidplatform.org/api/mcp/corrections` and OAuth where available.
 Custom MCP setup provides tools, not automatic installation of these skills.
 Add the skill text through the client's supported skill setup if needed.
 Never copy the Cursor local-plugin path into Grok Bot as an assumed equivalent.
