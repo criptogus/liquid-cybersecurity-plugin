@@ -1,0 +1,14 @@
+{
+  "publisher": "Zero Agency",
+  "format": "Plain Markdown task references; no executable installer",
+  "playbooks": {
+    "onboarding.md": {
+      "utf8Bytes": 2271,
+      "sha256": "0594fbf89e5484bf978e5672920ba392d7cf170844191294f8041d48a74cd99e"
+    },
+    "code-review.md": {
+      "utf8Bytes": 5748,
+      "sha256": "d40b8209420e0201634be7569a16c6f56a232aea8a8f08b5dd172ae161cdefb8"
+    }
+  }
+}
