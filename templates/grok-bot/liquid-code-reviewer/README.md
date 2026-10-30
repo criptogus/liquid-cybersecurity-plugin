@@ -52,6 +52,6 @@ not anonymous MCP access or a full audit. Do not upload code during installation
   https://cursor.com/docs/reference/plugins
 
 The parent client-package MIT license applies. These materials do not license
-the Liquid backend or confer certification. The verified native public template is https://x.ai/bot/MkDEiBKZof-O4eH3-FgY4.
+the Liquid backend or confer certification. The verified native public template is https://x.ai/bot/fVsIjoAFIfQksY7hboZYg.
 Its profile and description identify Zero Agency; the host creator attribution is
 the personal account display name. A public share is not marketplace approval.
