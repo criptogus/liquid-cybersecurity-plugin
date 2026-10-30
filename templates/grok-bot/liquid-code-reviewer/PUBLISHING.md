@@ -1,5 +1,7 @@
 # Create the native Grok Bot template
 
+A Markdown bundle is not a live share link.
+
 Status (October 30, 2026): the current native public template is
 https://x.ai/bot/fVsIjoAFIfQksY7hboZYg. Its public recipient preview includes
 `liquid-code-reviewer` and `getting-started`, four Liquid-only memories, and
