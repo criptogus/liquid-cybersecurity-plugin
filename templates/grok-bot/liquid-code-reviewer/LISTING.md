@@ -35,7 +35,7 @@ These are editorial copy, not a promised native conversation-starter API.
 
 ## Verified public template
 Add Liquid Code Reviewer to Grok Bot
-https://x.ai/bot/MkDEiBKZof-O4eH3-FgY4
+https://x.ai/bot/fVsIjoAFIfQksY7hboZYg
 
 ## Website trial CTA
 Start your free code review
