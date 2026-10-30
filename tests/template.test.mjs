@@ -11,7 +11,7 @@ test('all eight template source files are present and nonempty', async () => {
 test('source kit is not misrepresented as a native import or live link', async () => {
   const readme = await text(base + 'README.md');
   assert.match(readme, /not an official JSON import format/);
-  assert.ok(readme.includes('https://x.ai/bot/MkDEiBKZof-O4eH3-FgY4'));
+  assert.ok(readme.includes('https://x.ai/bot/fVsIjoAFIfQksY7hboZYg'));
 });
 test('self-contained skill names all seven real tools', async () => {
   const skill = await text(base + 'SKILL.md');
@@ -56,7 +56,7 @@ test('installer includes template files and no native share ID is fabricated', a
   assert.match(await text('scripts/install-local.mjs'), /'templates'/);
   for (const name of names) {
     const urls = (await text(base + name)).match(/https:\/\/x\.ai\/bot\/(?!guides\/)[A-Za-z0-9_-]{8,}/g) ?? [];
-    for (const url of urls) assert.equal(url, 'https://x.ai/bot/MkDEiBKZof-O4eH3-FgY4');
+    for (const url of urls) assert.equal(url, 'https://x.ai/bot/fVsIjoAFIfQksY7hboZYg');
   }
 });
 test('behavior tests remain labeled planned, not executed', async () => {
