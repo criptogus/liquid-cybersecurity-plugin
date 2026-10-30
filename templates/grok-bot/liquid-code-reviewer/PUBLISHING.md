@@ -10,13 +10,32 @@ The source Bot uses the lime-green L. avatar; the shared preview and public
 page still display a default Grok character. Do not claim that the public icon
 has been corrected or publish an identical revision as a fix.
 
-The separate recipient account currently reports that its Free plan does not
-include Grok Bot, so fresh runtime testing is blocked. No upgrade was purchased.
-Historical creator-side OAuth and one synthetic read passed on October 16;
-that evidence does not establish a fresh independent recipient OAuth test.
-Public-link publication and curated marketplace admission are separate. Liquid
-was not found in the curated marketplace search on October 30. Do not mark the
-marketplace form's in-app test attestation from packaging tests alone.
+On October 30, the publisher's main paid Grok account completed real native
+OAuth with a new code-only Liquid permission lasting exactly 24 hours. The
+connected account label is `liquid release test`; the older `default` slot
+still required authentication. Explicit discovery of the connected account
+returned exactly `liquid_review_code` and `liquid_review_diff`, both enabled.
+Four real calls completed at 12:54 BRT: a TypeScript eval candidate, the same
+candidate in a partial diff, malformed TypeScript returning inconclusive, and
+an instruction-like comment remaining source data. Their full JSON receipts
+matched the local engine field-for-field, including hashes and review IDs.
+All reported zero Liquid credits, no source retention, static-only execution
+and `deploymentApproved=false`. Assessment, catalog and repository access
+were excluded by this grant and were not positively tested in this session.
+No upgrade, credits or additional model package was purchased.
+
+The separate recipient account's Free plan did not permit fresh runtime
+testing. These main-account results do not establish an independent recipient
+Liquid-identity test. Historical creator-side assessment read evidence from
+October 16 remains separate from the current code-only acceptance tests.
+
+Public-link publication and curated marketplace admission are separate. The
+Grok-only application was prepared with the correct public L. PNG and real
+in-app test evidence. The final submission attempt on October 30 failed at
+`https://x.ai/api/bot/plugin-submission` with HTTP 502, `Bad Gateway`; the page
+showed `Something went wrong. Please try again.` No submission receipt was
+returned. Status: marketplace submission blocked, not confirmed submitted or
+approved. Do not infer marketplace approval from the public template link.
 
 The Share > Update template control was observed to send a message to the Bot
 and invoke model work, rather than perform a passive synchronization. Do not
@@ -30,7 +49,9 @@ without dispatching an update.
    is self-contained; do not rely on a file remaining on the creator's computer.
    Send SETUP_MESSAGE.md. Verify what was saved in the actual client.
 3. Configure the custom Remote HTTPS MCP connection with the user's own OAuth
-   at https://liquidplatform.org/api/mcp/corrections when an authorized assessment is available.
+   at https://liquidplatform.org/api/mcp/corrections. Submitted code and diffs
+   can use code-only consent without an assessment. Assessment reads require
+   a separate, explicitly selected assessment permission.
    Do not add shared secrets or automatically reuse a demonstration grant.
    Also verify that a user without a grant receives accurate web-trial guidance.
 4. Run the authorized, synthetic smoke tests in ACCEPTANCE.md with no spending
