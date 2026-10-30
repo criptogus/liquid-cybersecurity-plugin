@@ -43,8 +43,9 @@ and keep one connection rather than running duplicate servers.
 
 ## Grok Bot
 
-Import the public [Liquid Code Reviewer template](https://x.ai/bot/MkDEiBKZof-O4eH3-FgY4)
-by Zero Agency. Ask either:
+Import the public [Liquid Code Reviewer template](https://x.ai/bot/fVsIjoAFIfQksY7hboZYg)
+by Zero Agency. Its public preview includes `liquid-code-reviewer` and
+`getting-started`, plus the two pinned playbook references. Ask either:
 
 - “Use the linked Liquid onboarding playbook.”
 - “Use the linked Liquid code-review playbook.”
@@ -64,7 +65,11 @@ to submit the exact source files or diff is separate. Never paste tokens in chat
 The [authoring kit](templates/grok-bot/liquid-code-reviewer/README.md) and
 [plain Markdown references](templates/grok-bot/liquid-code-reviewer/playbooks/)
 are included for maintainers. Cursor Marketplace review remains separate from
-the native public Grok template.
+the native public Grok template. The public template was verified on October 30,
+2026; it was not found in the curated Grok marketplace search. A fresh recipient
+runtime test is currently blocked because that test account's Free plan does
+not include Grok Bot. No plan change is required merely to inspect the public
+link, and no plan change was made.
 
 ## Four workflows
 
