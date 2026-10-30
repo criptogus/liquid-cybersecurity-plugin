@@ -1,11 +1,25 @@
 # Create the native Grok Bot template
 
-Status (October 16, 2026): native template published at
-https://x.ai/bot/MkDEiBKZof-O4eH3-FgY4. OAuth and one synthetic read
-passed through the resource-specific endpoint below. Independent recipient
-import testing remains unverified. These are separate checks.
-A Markdown bundle is not a live share link. This is a separate process from
-submitting the Cursor plugin to its marketplace.
+Status (October 30, 2026): the current native public template is
+https://x.ai/bot/fVsIjoAFIfQksY7hboZYg. Its public recipient preview includes
+`liquid-code-reviewer` and `getting-started`, four Liquid-only memories, and
+commit-pinned public playbooks whose complete bytes and SHA-256 were verified.
+The source Bot uses the lime-green L. avatar; the shared preview and public
+page still display a default Grok character. Do not claim that the public icon
+has been corrected or publish an identical revision as a fix.
+
+The separate recipient account currently reports that its Free plan does not
+include Grok Bot, so fresh runtime testing is blocked. No upgrade was purchased.
+Historical creator-side OAuth and one synthetic read passed on October 16;
+that evidence does not establish a fresh independent recipient OAuth test.
+Public-link publication and curated marketplace admission are separate. Liquid
+was not found in the curated marketplace search on October 30. Do not mark the
+marketplace form's in-app test attestation from packaging tests alone.
+
+The Share > Update template control was observed to send a message to the Bot
+and invoke model work, rather than perform a passive synchronization. Do not
+use it under a zero-host-usage constraint. Inspect existing template details
+without dispatching an update.
 
 1. Create a fresh Bot using New > Create new Bot. In Edit Profile, set the name
    to Liquid Code Reviewer, identify Zero Agency, and use PROFILE.md for the
